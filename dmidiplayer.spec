@@ -1,28 +1,28 @@
-Summary:		Multi-platform MIDI File Player
+Summary:	Multi-platform MIDI File Player
 Name:		dmidiplayer
-Version:		1.7.5
-Release:		1
-License:		GPLv3+
+Version:	1.7.5
+Release:	1
+License:	GPLv3+
 Group:		Sound
 Url:		https://sourceforge.net/projects/dmidiplayer/
 Source0:	https://sourceforge.net/projects/dmidiplayer/files/v%{version}/%{name}-%{version}.tar.bz2
-BuildRequires:		cmake >= 3.16
-BuildRequires:		git
-BuildRequires:		gzip-utils
+BuildRequires:	cmake >= 3.16
+BuildRequires:	git
+BuildRequires:	gzip-utils
 # Needed for docs, but not provided yet
-#BuildRequires:	 pandoc
-BuildRequires:		pbzip2
-BuildRequires:		uchardet
-BuildRequires:		qt6-qttools-linguist-tools
-BuildRequires:		pkgconfig(drumstick-file) >= 2.10
-BuildRequires:		pkgconfig(drumstick-rt)
-BuildRequires:		pkgconfig(drumstick-widgets)
-BuildRequires:		pkgconfig(Qt6Core) >= 6.2
-BuildRequires:		pkgconfig(Qt6Core5Compat)
-BuildRequires:		pkgconfig(Qt6Gui)
-BuildRequires:		pkgconfig(Qt6PrintSupport)
-BuildRequires:		pkgconfig(Qt6Widgets)
-BuildRequires:		pkgconfig(uchardet) >= 0.0.8
+#BuildRequires:	pandoc
+BuildRequires:	pbzip2
+BuildRequires:	uchardet
+BuildRequires:	qt6-qttools-linguist-tools
+BuildRequires:	pkgconfig(drumstick-file) >= 2.10
+BuildRequires:	pkgconfig(drumstick-rt)
+BuildRequires:	pkgconfig(drumstick-widgets)
+BuildRequires:	pkgconfig(Qt6Core) >= 6.2
+BuildRequires:	pkgconfig(Qt6Core5Compat)
+BuildRequires:	pkgconfig(Qt6Gui)
+BuildRequires:	pkgconfig(Qt6PrintSupport)
+BuildRequires:	pkgconfig(Qt6Widgets)
+BuildRequires:	pkgconfig(uchardet) >= 0.0.8
 
 %description
 Drumstick MIDI File Player: a Qt-only replacement for Kmid2.
