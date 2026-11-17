@@ -9,6 +9,7 @@ Source0:	https://sourceforge.net/projects/dmidiplayer/files/v%{version}/%{name}-
 BuildRequires:	cmake >= 3.16
 BuildRequires:	git
 BuildRequires:	gzip-utils
+BuildRequires:	make
 # Needed for docs, but not provided yet
 #BuildRequires:	pandoc
 BuildRequires:	pbzip2
